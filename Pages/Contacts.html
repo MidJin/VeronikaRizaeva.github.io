@@ -10,15 +10,17 @@
 
 <!шапка сайта>
 
-<header>
-<a href="index.html"><img src="../Фото/Лого.jpg"></a>   <!Имя заглавного файла index.html>
-<ol>
-<a href="index.html"><li>Обо мне</li></a> 
-<a href="index.html#fiks"><li>Мои умения</li></a> 
+<header class="header_wrap">
+<section class="header">
+<a href="index.html"><img src="../Фото/Лого.jpg" class='logo'></a>   <!Имя заглавного файла index.html>
+<ol class="menu">
+<a href="../index.html"><li>Обо мне</li></a> 
+<a href="../index.html#fiks"><li>Мои умения</li></a> 
 <a href="../Pages/Resume.html"><li>Резюме</li></a> 
 <a href="../Pages/Interests.html"><li>Мои интересы</li></a> 
 <a href="../Pages/Contacts.html"><li>Контакты</li></a> 
 </ol>
+</section>
 </header>
 
 <!контент>
@@ -42,7 +44,8 @@
 </label>
 <!списки>
 <p>Выберите:</p>
-<select name="Выберите" multiple>
+<label for="theme"></label>
+<select name="Выберите" id="theme">
 <option value="Работа">Работа</option>
 <option value="Учёба">Учёба</option>
 <option value="Не занят">Не занят</option>
