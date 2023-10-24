@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Name</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&family=Podkova&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../CSS/style.css">
+<script src="../JavaS/Form.js" defer></script>
+</head>
+
+<body>
+
+<!шапка сайта>
+
+<header class="header_wrap">
+<section class="header">
+<a href="index.html"><img src="../Фото/Лого.jpg" class='logo'></a>   <!Имя заглавного файла index.html>
+<ol class="menu">
+<a href="../index.html"><li>Обо мне</li></a> 
+<a href="../index.html#fiks"><li>Мои умения</li></a> 
+<a href="../Pages/Resume.html"><li>Резюме</li></a> 
+<a href="../Pages/Interests.html"><li>Мои интересы</li></a> 
+<a href="../Pages/Contacts.html"><li>Контакты</li></a> 
+</ol>
+</section>
+</header>
+
+<!контент>
+
+<main>
+<!секции>
+<h1>Заполните анкету</h1>
+<section><p>Введите информацию о себе</p></section>
+<!Форма>
+<form action="#" method="post" id="forma">
+<div class="form">
+<label for="name"> Ваши ФИО </label>
+<input type="text" name="name" id="name" placeholder="Введите ФИО">
+</div>
+<div class="form">
+<label for="data"> Адрес почты </label>
+<input type="email" name="email" id="email" placeholder="Введите адрес почты">
+</div>
+<div class="form">
+<label for="data"> Номер телефона </label>
+<input type="tel" name="tel" id="tel" placeholder="Введите телефон">
+</div>
+<div class="form">
+<label for="data"> Дата обращения </label>
+<input type="date" name="data" id="data" placeholder="Дата обращения">
+</div>
+<div class="form">
+<label for="data"> Введите причину обращения </label>
+<input type="obr" name="obr" id="obr" placeholder="Причина обращения">
+</div>
+<!радио-кнопки>
+<h3> Добавить способ ответа: </h3>
+<div>
+<div id="v"><label> <input type="radio" name="radio" value="Meet" > Назначить личную встречу на дату</label></div>
+<div id="calendar" class="unvisible"><input type="date" name="calendar" value="Календарь"></div>
+<div id="t"><label> <input type="radio" name="radio" value="Telephon"> По телефону </label></div>
+<div id="d"><label> <input type="radio" name="radio" value="Другое"> Другое </label></div>
+<div id="otv"><label> <input type="radio" name="radio" value="otvet"> Ответ не требуется </label></div>
+</div>
+<div id="SMS" class="unvisible">
+<textarea cols="50" rows="1" id="sms"></textarea>
+</div>
+<!списки>
+<label for="theme">Выберите занятость</label>
+<select name="Выберите тему обращения">
+<option value="Работаю">Работаю</option>
+<option value="Учусь">Учусь</option>
+<option value="Фрилансер">Фрилансер</option>
+<option value="Индивид">Индивидуальный предприниматель</option>
+<option value="Не занят">Не учусь/работаю</option>
+</select></br>
+<input type="submit" value='Отправить'>
+</main>
+</form>
+
+<!подвал сайта>
+
+<footer>
+<img src="../Фото/BTS.png">
+<div><p><b>Выполнила:</b> Ризаева Вероника Алексеевна
+<br><b>Группа:</b> 2281 <br>
+<a href="https://vk.com/nika_sibyl"><i>Ссылка на мой вк</i></a></p>
+</div>
+</footer>
+
+</body>
+</html>
